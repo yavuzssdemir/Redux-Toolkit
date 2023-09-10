@@ -3,6 +3,13 @@
 
 - Hem reducer hem de action için farklı dosyalarda oluşturmak yerine bir slice dosyasında oluşturmamıza olanak sağlayan, daha az kodlama ile aynı zamanda bizim için switch-case yapısını ve aksiyonları oluşturarak kod kalabalığının yanı sıra bizi uzun kodlamalardan kaynaklı zaman kaybından da kurtarmış oluyor. Dahili olarak thunk beraberinde geliyor, Devtools eklentisi sayesinde de proje geliştirme aşamasında store'u, reducer ve aksiyonları izlenimi kolaydır; veri yönetimimiz kolaydır. Proje içerisinde gördüğünüz yapı ise sizin için en basit haliyle bunun ufak bir örneğidir.
 
+
+
+
+https://github.com/yavuzssdemir/Redux-Toolkit/assets/111619682/05baab37-03a3-4efa-b2c8-8952f1df3067
+
+
+
 Adım 1: Proje Başlatma
 
 Öncelikle bir React projesi oluşturun veya mevcut bir React projesinde çalışıyorsanız devam edin.
@@ -87,7 +94,7 @@ function App() {
 
   return (
     <div>
-      <//h1>Count: {count}<//h1>
+     Count: {count}>
 
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
